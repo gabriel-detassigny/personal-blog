@@ -1,0 +1,79 @@
+[project]
+site_name = "$> blog detassigny.net"
+site_description = "Notes on backend engineering, testing and clean code"
+site_author = "Gabriel de Tassigny"
+site_url = "https://blog.detassigny.net/"
+copyright = "Copyright &copy; 2018 – present Gabriel de Tassigny"
+nav = [
+  { "Blog" = "index.md" },
+  { "About" = "about.md" },
+]
+
+[project.theme]
+language = "en"
+features = [
+  "content.code.copy",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.tabs",
+  "navigation.top",
+  "search.highlight",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/gabriel-detassigny"
+name = "GitHub"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://www.linkedin.com/in/gabriel-de-tassigny-24a03160/"
+name = "LinkedIn"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/rss"
+link = "/feed_rss_created.xml"
+name = "RSS feed"
+
+# The blog lives at the site root; posts are in docs/posts/ and served at /<slug>/
+[project.plugins.blog]
+blog_dir = "."
+post_url_format = "{slug}"
+pagination_per_page = 10
+
+[project.plugins.rss]
+match_path = "posts/.*"
+abstract_chars_count = -1
+date_from_meta = { as_creation = "date" }
+
+[project.plugins.search]
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+footnotes = {}
+md_in_html = {}
+toc.permalink = true
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.superfences = {}
