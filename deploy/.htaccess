@@ -1,0 +1,22 @@
+# Redirects from the old simple-blog URLs. The old router ignored the slug,
+# so /posts/{id}/<anything> is matched on the id alone.
+RewriteEngine On
+
+RewriteRule ^posts/1(/.*)?$ /design-pattern-1-value-object/ [R=301,L]
+RewriteRule ^posts/2(/.*)?$ /going-frameworkless/ [R=301,L]
+RewriteRule ^posts/3(/.*)?$ /managing-my-passwords-with-keepass-and-owncloud/ [R=301,L]
+RewriteRule ^posts/4(/.*)?$ /design-pattern-2-dependency-injection/ [R=301,L]
+RewriteRule ^posts/5(/.*)?$ /i-gave-up-on-android/ [R=301,L]
+RewriteRule ^posts/6(/.*)?$ /you-need-to-write-tests/ [R=301,L]
+RewriteRule ^posts/7(/.*)?$ /mocking-in-php-1-writing-your-own-mocks/ [R=301,L]
+RewriteRule ^posts/8(/.*)?$ /mocking-in-php-2-phpunit-mocks/ [R=301,L]
+RewriteRule ^posts/9(/.*)?$ /mocking-in-php-3-mockery/ [R=301,L]
+RewriteRule ^posts/10(/.*)?$ /mocking-in-php-4-phake/ [R=301,L]
+RewriteRule ^posts/11(/.*)?$ /design-pattern-3-decorator-pattern/ [R=301,L]
+RewriteRule ^posts/12(/.*)?$ /safe-refactoring-split-a-class-into-smaller-ones/ [R=301,L]
+RewriteRule ^posts/page/[0-9]+/?$ / [R=301,L]
+RewriteRule ^rss/?$ /feed_rss_created.xml [R=301,L]
+RewriteRule ^about$ /about/ [R=301,L]
+RewriteRule ^images/upload/(.*)$ /images/$1 [R=301,L]
+
+ErrorDocument 404 /404.html
