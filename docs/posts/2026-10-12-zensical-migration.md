@@ -22,11 +22,13 @@ It provided a basic admin UI, and required some maintenance which I admittedly d
 
 ## The dilemma
 
-For a while, I was wondering what to do with this blog... no one cares about this blog except me (to some extend). No one is really reading this except me, years later. 
+For a while, I was wondering what to do with this blog... no one cares about this blog except me. No one is really reading this except me, years later.
 
 The problem is maintaining an old custom stack with an admin access was a security risk. And yet I liked having this around, for me to revisit my thoughts years prior.
 
-So what should I do?
+So what should I do? Delete the blog completely? Leave it as is?
+
+Migrating it to an easier, more manageable tool seemed to be the best middle-ground.
 
 ## Zensical
 
@@ -50,6 +52,6 @@ One thing I realised lately is how easy it now is to actually tackle the backlog
 
 Another thing I realised once I decided to try that is how quickly I (well, Claude) got that done! It really took about **30 min total** from the moment I explained the migration plan to the moment the new version was deployed live. 
 
-Before AI, this would have been I assume between 5 to 10 hours.
+Before AI, this would have taken me between 5 to 10 hours.
 
 ...what a world we live in!

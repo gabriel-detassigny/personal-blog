@@ -1,6 +1,6 @@
 # About
 
-Hi there! I'm Gabriel de Tassigny, a staff engineer at [XWP](xwp.co).
+Hi there! I'm Gabriel de Tassigny, a staff engineer at [XWP](https://xwp.co/).
 I've been a developer professionally since 2012, with most of that time spent in PHP (lately in the WordPress world), but I've also dabbled in React, Java, and Ruby. 
 
 I've lived in many places: Paris, Dublin, Incheon, London, Seoul, Jeonju, and now Poitiers.
